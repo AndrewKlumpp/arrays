@@ -1,4 +1,10 @@
-// your code here
+function productWithReduce(nums) {
+  let product = 1;
+  for (let i =0; i < nums.length; i++) {
+    product = product * nums[i];
+  }
+  return product;
+}
 
 
 
