@@ -1,4 +1,12 @@
-// Your code here
+function firstAndLast(array) {
+  if (array.length % 2 === 0) {
+    let evenArray = array[0] + array[array.length - 1];
+    return evenArray;
+  } else {
+    let oddArray = array[0] - array[array.length -1];
+    return oddArray;
+  }
+}
 
 
 
