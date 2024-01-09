@@ -1,5 +1,6 @@
 function combineArray(array1, array2) {
-  // your code here...
+  let newArray = array1.concat(array2);
+  return newArray;
 }
 
 console.log(combineArray([1, 2], [3, 4])); // => [1, 2, 3, 4]
