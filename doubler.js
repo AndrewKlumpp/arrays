@@ -1,5 +1,9 @@
 function doubler(numbers) {
-  // your code here...
+  let doubledArray = [];
+  for (let i = 0; i < numbers.length; i++) {
+    doubledArray.push(numbers[i] * 2);
+  }
+  return doubledArray;
 }
 
 console.log(doubler([1, 2, 3, 4])); // => [2, 4, 6, 8]
