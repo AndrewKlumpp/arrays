@@ -1,4 +1,10 @@
-// Your code here
+function threeIncreasing(array) {
+  for (let i = 1; i < array.length; i++) {
+    if (array[i-1] === (array[i]) -1 && array[i + 1] === array[i] + 1) {
+      return true;
+    }
+  } return false;
+}
 
 
 
